@@ -3,23 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		408698F62C63DD8400E5B584 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408698F52C63DD8400E5B584 /* ScoreView.swift */; };
+		408698F82C63DDA800E5B584 /* ScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408698F72C63DDA800E5B584 /* ScoreModel.swift */; };
+		408698FA2C63DE2000E5B584 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408698F92C63DE2000E5B584 /* ScoreViewModel.swift */; };
 		4097EA702C54094100ED06EA /* JuegoDeMemoria_Vitoria_GarciaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097EA6F2C54094100ED06EA /* JuegoDeMemoria_Vitoria_GarciaApp.swift */; };
-		4097EA722C54094100ED06EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097EA712C54094100ED06EA /* ContentView.swift */; };
 		4097EA742C54094300ED06EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4097EA732C54094300ED06EA /* Assets.xcassets */; };
 		4097EA772C54094300ED06EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4097EA762C54094300ED06EA /* Preview Assets.xcassets */; };
+		4097EA7E2C54097300ED06EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097EA7D2C54097300ED06EA /* HomeView.swift */; };
+		4097EA802C54106100ED06EA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097EA7F2C54106100ED06EA /* GameView.swift */; };
+		4097EA822C594C1D00ED06EA /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097EA812C594C1D00ED06EA /* GameViewModel.swift */; };
+		4097EA892C59546900ED06EA /* Color1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4097EA832C59546900ED06EA /* Color1.wav */; };
+		4097EA8A2C59546900ED06EA /* Color2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4097EA842C59546900ED06EA /* Color2.wav */; };
+		4097EA8B2C59546900ED06EA /* Color3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4097EA852C59546900ED06EA /* Color3.wav */; };
+		4097EA8C2C59546900ED06EA /* Color4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4097EA862C59546900ED06EA /* Color4.wav */; };
+		4097EA8D2C59546900ED06EA /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4097EA872C59546900ED06EA /* gameOver.wav */; };
+		40CC20342CCC102F00DF5D07 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CC20332CCC102F00DF5D07 /* GameOverView.swift */; };
+		40CC20362CCC112200DF5D07 /* GameOverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CC20352CCC112200DF5D07 /* GameOverViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		408698F52C63DD8400E5B584 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		408698F72C63DDA800E5B584 /* ScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreModel.swift; sourceTree = "<group>"; };
+		408698F92C63DE2000E5B584 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 		4097EA6C2C54094100ED06EA /* JuegoDeMemoria_Vitoria_Garcia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuegoDeMemoria_Vitoria_Garcia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4097EA6F2C54094100ED06EA /* JuegoDeMemoria_Vitoria_GarciaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoDeMemoria_Vitoria_GarciaApp.swift; sourceTree = "<group>"; };
-		4097EA712C54094100ED06EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4097EA732C54094300ED06EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4097EA762C54094300ED06EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4097EA7D2C54097300ED06EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4097EA7F2C54106100ED06EA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		4097EA812C594C1D00ED06EA /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		4097EA832C59546900ED06EA /* Color1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Color1.wav; sourceTree = "<group>"; };
+		4097EA842C59546900ED06EA /* Color2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Color2.wav; sourceTree = "<group>"; };
+		4097EA852C59546900ED06EA /* Color3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Color3.wav; sourceTree = "<group>"; };
+		4097EA862C59546900ED06EA /* Color4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Color4.wav; sourceTree = "<group>"; };
+		4097EA872C59546900ED06EA /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+		40CC20332CCC102F00DF5D07 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		40CC20352CCC112200DF5D07 /* GameOverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		40F2131D2CDD402200252361 /* Network */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Network; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4097EA692C54094100ED06EA /* Frameworks */ = {
@@ -51,9 +79,10 @@
 		4097EA6E2C54094100ED06EA /* JuegoDeMemoria_Vitoria_Garcia */ = {
 			isa = PBXGroup;
 			children = (
+				40F1CBF72CD2B83C002FF0A7 /* Common */,
+				40F1CBF62CD2B7F3002FF0A7 /* Resources */,
+				40F1CBF12CD2B76B002FF0A7 /* Module */,
 				4097EA6F2C54094100ED06EA /* JuegoDeMemoria_Vitoria_GarciaApp.swift */,
-				4097EA712C54094100ED06EA /* ContentView.swift */,
-				4097EA732C54094300ED06EA /* Assets.xcassets */,
 				4097EA752C54094300ED06EA /* Preview Content */,
 			);
 			path = JuegoDeMemoria_Vitoria_Garcia;
@@ -65,6 +94,90 @@
 				4097EA762C54094300ED06EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4097EA882C59546900ED06EA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4097EA832C59546900ED06EA /* Color1.wav */,
+				4097EA842C59546900ED06EA /* Color2.wav */,
+				4097EA852C59546900ED06EA /* Color3.wav */,
+				4097EA862C59546900ED06EA /* Color4.wav */,
+				4097EA872C59546900ED06EA /* gameOver.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		40F1CBF12CD2B76B002FF0A7 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				40F1CBF52CD2B7DB002FF0A7 /* Score */,
+				40F1CBF42CD2B7C3002FF0A7 /* GameOver */,
+				40F1CBF32CD2B79F002FF0A7 /* Game */,
+				40F1CBF22CD2B77E002FF0A7 /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		40F1CBF22CD2B77E002FF0A7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4097EA7D2C54097300ED06EA /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		40F1CBF32CD2B79F002FF0A7 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4097EA812C594C1D00ED06EA /* GameViewModel.swift */,
+				4097EA7F2C54106100ED06EA /* GameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		40F1CBF42CD2B7C3002FF0A7 /* GameOver */ = {
+			isa = PBXGroup;
+			children = (
+				40CC20332CCC102F00DF5D07 /* GameOverView.swift */,
+				40CC20352CCC112200DF5D07 /* GameOverViewModel.swift */,
+			);
+			path = GameOver;
+			sourceTree = "<group>";
+		};
+		40F1CBF52CD2B7DB002FF0A7 /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				408698F52C63DD8400E5B584 /* ScoreView.swift */,
+				408698F92C63DE2000E5B584 /* ScoreViewModel.swift */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
+		40F1CBF62CD2B7F3002FF0A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4097EA732C54094300ED06EA /* Assets.xcassets */,
+				4097EA882C59546900ED06EA /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40F1CBF72CD2B83C002FF0A7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				40F2131D2CDD402200252361 /* Network */,
+				40F1CBF82CD2B844002FF0A7 /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		40F1CBF82CD2B844002FF0A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				408698F72C63DDA800E5B584 /* ScoreModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +194,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				40F2131D2CDD402200252361 /* Network */,
 			);
 			name = JuegoDeMemoria_Vitoria_Garcia;
 			productName = JuegoDeMemoria_Vitoria_Garcia;
@@ -126,7 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4097EA772C54094300ED06EA /* Preview Assets.xcassets in Resources */,
+				4097EA8C2C59546900ED06EA /* Color4.wav in Resources */,
+				4097EA892C59546900ED06EA /* Color1.wav in Resources */,
+				4097EA8D2C59546900ED06EA /* gameOver.wav in Resources */,
 				4097EA742C54094300ED06EA /* Assets.xcassets in Resources */,
+				4097EA8B2C59546900ED06EA /* Color3.wav in Resources */,
+				4097EA8A2C59546900ED06EA /* Color2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +258,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4097EA722C54094100ED06EA /* ContentView.swift in Sources */,
+				40CC20362CCC112200DF5D07 /* GameOverViewModel.swift in Sources */,
+				408698F82C63DDA800E5B584 /* ScoreModel.swift in Sources */,
+				4097EA7E2C54097300ED06EA /* HomeView.swift in Sources */,
+				4097EA802C54106100ED06EA /* GameView.swift in Sources */,
+				4097EA822C594C1D00ED06EA /* GameViewModel.swift in Sources */,
 				4097EA702C54094100ED06EA /* JuegoDeMemoria_Vitoria_GarciaApp.swift in Sources */,
+				408698F62C63DD8400E5B584 /* ScoreView.swift in Sources */,
+				40CC20342CCC102F00DF5D07 /* GameOverView.swift in Sources */,
+				408698FA2C63DE2000E5B584 /* ScoreViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

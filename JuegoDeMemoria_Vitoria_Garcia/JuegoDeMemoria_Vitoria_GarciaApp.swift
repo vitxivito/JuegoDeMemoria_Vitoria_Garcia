@@ -11,7 +11,7 @@ import SwiftUI
 struct JuegoDeMemoria_Vitoria_GarciaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
