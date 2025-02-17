@@ -2,7 +2,6 @@
 
 Este es un **juego de memoria** desarrollado en **Swift** para iOS. El objetivo es recordar una secuencia de imágenes y seleccionarlas en el orden correcto. La aplicación guarda la puntuación final y permite consultar un historial de puntuaciones almacenadas en línea.  
 
----
 
 ##  Funcionalidades
 
