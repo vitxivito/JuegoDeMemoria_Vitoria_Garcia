@@ -27,3 +27,12 @@ Este es un **juego de memoria** desarrollado en **Swift** para iOS. El objetivo 
 1. **Clona el repositorio**  
    ```bash
    git clone https://github.com/vitxivito/JuegoDeMemoria_Vitoria_Garcia
+
+   
+## Uso
+
+- Observa la secuencia de imágenes mostrada en pantalla.
+- Memoriza el orden de aparición.
+- Selecciona las imágenes en el orden correcto.
+- Al finalizar, consulta tu puntuación y compárala con las anteriores.
+
